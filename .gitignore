@@ -1,0 +1,10 @@
+# files to ignore
+*~
+custom.el
+history
+places
+recentf
+
+# folders to ignore
+**/auto-save-list/
+
