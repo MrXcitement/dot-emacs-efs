@@ -14,3 +14,13 @@ Load theme modus-operandi, a good light theme.
 
 Protesilaos Stavrou - Author of Modus theme
 https://protesilaos.com/emacs/modus-themes
+
+## The 6 Emacs Settings Every User Should Consider
+
+1. Save recent file list
+2. Save mini-buffer interations
+3. Save your current place in the file
+4. Store customize settings in seperate file
+5. Never use graphical dialogs
+6. Revert file and non-file buffers that are changed in the background
+

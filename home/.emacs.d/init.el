@@ -16,3 +16,25 @@
 ;; load a default theme, modus-theme included in emacs 28
 (load-theme 'modus-operandi)
 
+;; save recent files
+(recentf-mode t)
+
+;; save mini-buffer interactions
+(setq history-length 25)
+(savehist-mode t)
+
+;; save the place in all files
+(save-place-mode t)
+
+;; store 'customize' settings in "customize.el" file
+(setq custom-file (locate-user-emacs-file "custom.el"))
+(load custom-file 'noerror 'nomessage)
+
+;; never use a graphical dialog box
+(setq use-dialog-box nil)
+
+;; revert buffers that have changed on disk, but not in emacs
+(global-auto-revert-mode t)
+
+;; revert non-file buffers, dired etc
+(setq global-auto-revert-non-file-buffers t)
