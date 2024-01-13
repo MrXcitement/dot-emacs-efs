@@ -1,0 +1,46 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/mike/src/test/emacs/" . "a/")
+ ("/Users/mike/" . "src/")
+ ("/Users/mike/src/test/emacs/a/" . "b/")
+ ("/Users/mike/src/test/" . "emacs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/mike/src/test/emacs/"
+ "/Users/mike/src/test/emacs/a/b/"
+ "/etc/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "emacs-minimal.el"
+ "foo.el"
+ "test.txt"
+ "bar.txt"
+ "foo.txt"
+ "hosts"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/mike/src/test/emacs/" (25053 57345 943444 384000) "foo.el~" "test.txt~" "test.txt" "foo.el" "emacs-minimal.el" "a/" "#test.txt#~" "#test.txt#" "../" "./")
+
+ ("/Users/mike/src/test/emacs/a/b/" (25044 38690 159099 48000) "foo.txt" "foo.txt~" "bar.txt~" "../" "./")
+
+ ("/Users/mike/src/" (24980 22645 235580 672000) ".sync.ffs_db" "test/" ".DS_Store" "learn/" "../" "./")
+
+ ("/Users/mike/" (25044 51307 733874 111000) ".zlogout" ".zsh/" "src/" ".zlogin" "cloudflared.tar" ".zsh_sessions/" ".viminfo" ".bash_history" ".tmux-darwin.conf" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".Xauthority" "backup/" ".swiftpm/" ".gem/" ".antigen/" ".vscode/" ".mono/" "Documents/" ".zcompdump" ".Trash/" "@joplin/" "Applications/" ".vimrc" "Movies/" ".ssh/" ".zshenv" "Virtual Machines.localized/" "github/" "Public/" ".zshrc.zwc" ".fasd" "Google Drive/" ".SynologyDrive/" ".vuescanrc" ".cups/" ".gitignore_global" ".android/" ".emacs.d/" ".IdentityService/" ".lesshst" "Library/" "Desktop/" ".zsh_history" ".zprofile" "Pictures/" "Projects/" ".local/" "OneDrive/" ".templateengine/" ".zshrc" ".vagrant.d/" "bin/" ".CFUserTextEncoding" ".tmux.conf" "gitlab/" ".DS_Store" ".vim/" "Calibre/" ".docker/" ".gitconfig.backup" ".zprofile.202110212340" "Synology/" "Music/" ".config/" "../" "./")
+
+ ("/Users/mike/src/test/emacs/a/" (25044 38157 332208 546000) "b/" "../" "./")
+
+ ("/etc/" (25024 64268 972575 706000) "notify.conf" "mail.rc" "newsyslog.conf" "afpovertcp.cfg" "zprofile" "passwd" "uucp/" "services" "man.conf" "cups/" "protocols" "wfs/" "com.apple.screensharing.agent.launchd" "aliases" "openldap/" "master.passwd" "rpc" "ntp.conf" "pf.anchors/" "pf.os" "postfix/" "hosts" "rc.netboot" "asl.conf" "sudo_lecture" "nfs.conf" "resolv.conf" "locate.rc" "ntp_opendirectory.conf" "csh.cshrc" "profile" "ftpusers" "ssh/" "autofs.conf" "apache2/" "find.codes" "networks" "hosts.equiv" "defaults/" "zshrc" "pam.d/" "dotnet/" "irbrc" "newsyslog.d/" "bashrc" "sudoers" "pf.conf" "localtime" "xtab" "rmtab" "paths" "ttys" "shells" "ppp/" "manpaths.d/" "auto_home" "group" "security/" "rtadvd.conf" "asl/" "paths.d/" "kern_loader.conf" "gettytab" "zshrc_Apple_Terminal" "snmp/" "racoon/" "bashrc_Apple_Terminal" "aliases.db" "csh.logout" "nanorc" "ssl/" "sudoers.d/" "krb5.keytab" "syslog.conf" "csh.login" "auto_master" "rc.common" "manpaths" "periodic/" "emond.d/" "../" "./")
+
+ ("/Users/mike/src/test/" (25044 34406 651706 252000) "packer-ubuntu-21.04-arm64/" "ansible-proxmox/" "packer-debian-arm64/" "emacs/" "vagrant-ubuntu/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
