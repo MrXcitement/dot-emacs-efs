@@ -24,3 +24,41 @@ https://protesilaos.com/emacs/modus-themes
 5. Never use graphical dialogs
 6. Revert file and non-file buffers that are changed in the background
 
+## Style Your Emacs with the Modus Themes
+
+We are going to be modifying the `modus-theme` so I moved the `load-theme` section of this emacs config to the end of the init.el file.
+
+* Mode line
+* Selection regions
+* Completion coloring
+* Syntax highlighting
+* Org Mode files
+
+### The mode line
+Remove border
+Decrese font size
+Add padding
+Accent the current active modeline
+
+### Selection region
+Background only highlighting
+
+### Completion
+I am using the example from the help:
+- matches:   extrabold background intense
+- selection: semibold accented intense
+- popup:     accented
+
+### Syntax highlighting
+I am using:
+* bold-constructs
+* italic-constructs
+* paren-match: bold, intense, underline
+* syntax: alt-syntax, green-strings, yellow-comments
+
+### Org Mode files
+* Headings formatting
+I used the default from the help, however I modified it to not grow the size of the text and removed underlines on top of title text
+
+### Source blocks
+* Set the tinted mode that provides different colors for source bloacks based on source type.
